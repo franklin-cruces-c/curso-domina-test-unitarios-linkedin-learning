@@ -8,7 +8,7 @@ import java.io.PrintStream;
 import org.junit.jupiter.api.Test;
 
 class HolaMundoTest {
-
+	
 	@Test
 	void testOut() {
 		PrintStream originalOut = System.out; // salida original
@@ -56,5 +56,4 @@ class HolaMundoTest {
 		System.setErr(originalErr); // restauración de la consola		
 		
 	}	
-	
 }
